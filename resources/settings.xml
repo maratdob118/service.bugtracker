@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings>
+    <category label="32000">
+        <group id="0" label="32001">
+            <setting label="32010" type="bool" id="enabled" default="true"/>
+            <setting label="32011" type="bool" id="auto_send" default="false"/>
+            <setting label="32012" type="text" id="target_repo" default="maratdob118/kodi-reports">
+                <constraints>
+                    <allowempty>false</allowempty>
+                </constraints>
+                <control type="edit" format="string">
+                    <heading>32012</heading>
+                </control>
+            </setting>
+            <setting label="32013" type="text" id="github_token" default="">
+                <control type="edit" format="string">
+                    <heading>32013</heading>
+                    <hidden>true</hidden>
+                </control>
+            </setting>
+            <setting label="32014" type="bool" id="send_crashlogs" default="true"/>
+            <setting label="32015" type="action" id="flush_now" action="RunScript(service.bugtracker,flush)" option="close"/>
+        </group>
+    </category>
+</settings>

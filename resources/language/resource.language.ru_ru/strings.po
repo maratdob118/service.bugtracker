@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bug Tracker\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgctxt "#32000"
+msgid "Bug Tracker"
+msgstr ""
+
+msgctxt "#32001"
+msgid "Отправка отчётов"
+msgstr ""
+
+msgctxt "#32010"
+msgid "Включить сбор"
+msgstr ""
+
+msgctxt "#32011"
+msgid "Отправлять отчёты автоматически"
+msgstr ""
+
+msgctxt "#32012"
+msgid "Репозиторий (owner/name)"
+msgstr ""
+
+msgctxt "#32013"
+msgid "Токен GitHub (issues:write на репозиторий)"
+msgstr ""
+
+msgctxt "#32014"
+msgid "Включать краш-логи"
+msgstr ""
+
+msgctxt "#32015"
+msgid "Отправить накопленное сейчас"
+msgstr ""
+
+msgctxt "#32100"
+msgid "Bug Tracker: новая проблема сгруппирована (%s)"
+msgstr ""
+
+msgctxt "#32101"
+msgid "Bug Tracker: оформлено %s"
+msgstr ""

@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bug Tracker\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgctxt "#32000"
+msgid "Bug Tracker"
+msgstr ""
+
+msgctxt "#32001"
+msgid "Reporting"
+msgstr ""
+
+msgctxt "#32010"
+msgid "Enable collection"
+msgstr ""
+
+msgctxt "#32011"
+msgid "Send reports automatically"
+msgstr ""
+
+msgctxt "#32012"
+msgid "Target repository (owner/name)"
+msgstr ""
+
+msgctxt "#32013"
+msgid "GitHub token (issues:write on the target repo)"
+msgstr ""
+
+msgctxt "#32014"
+msgid "Include crash logs"
+msgstr ""
+
+msgctxt "#32015"
+msgid "Send pending reports now"
+msgstr ""
+
+msgctxt "#32100"
+msgid "Bug Tracker: new problem grouped (%s)"
+msgstr ""
+
+msgctxt "#32101"
+msgid "Bug Tracker: filed %s"
+msgstr ""
