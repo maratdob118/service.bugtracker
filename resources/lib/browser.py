@@ -25,6 +25,9 @@ def source_of(row):
     binary = re.search(r'AddOnLog:\s*(' + _ADDON + r'):', first)
     if binary:
         return 'addons', binary.group(1)
+    repository = re.search(r'Repository add-on\s+(' + _ADDON + r')', first)
+    if repository:
+        return 'addons', repository.group(1)
     for addon in re.findall(r'[/\\]addons[/\\](' + _ADDON + r')[/\\]', sample):
         if not addon.startswith('script.module.'):
             return 'addons', addon
