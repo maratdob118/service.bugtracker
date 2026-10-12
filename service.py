@@ -83,7 +83,7 @@ class Tracker(object):
         sig = collect.signature(normalized)
         title = collect.title_for(normalized, collect.addon_of(text))
         is_new, count = self.store.record(sig, title, normalized[:4000], kind)
-        if is_new:
+        if is_new and self.setting('notify_new', 'false') == 'true':
             self.notify(self.addon.getLocalizedString(32100) % title[:60])
         return sig
 

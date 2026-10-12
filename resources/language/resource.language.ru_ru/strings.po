@@ -5,40 +5,88 @@ msgstr ""
 
 msgctxt "#32000"
 msgid "Bug Tracker"
-msgstr ""
+msgstr "Bug Tracker"
 
 msgctxt "#32001"
-msgid "Отправка отчётов"
-msgstr ""
+msgid "Reporting"
+msgstr "Отправка отчётов"
 
 msgctxt "#32010"
-msgid "Включить сбор"
-msgstr ""
+msgid "Enable collection"
+msgstr "Включить сбор"
 
 msgctxt "#32011"
-msgid "Отправлять отчёты автоматически"
-msgstr ""
+msgid "Send reports automatically"
+msgstr "Отправлять отчёты автоматически"
 
 msgctxt "#32012"
-msgid "Репозиторий (owner/name)"
-msgstr ""
+msgid "Target repository (owner/name)"
+msgstr "Репозиторий (owner/name)"
 
 msgctxt "#32013"
-msgid "Токен GitHub (issues:write на репозиторий)"
-msgstr ""
+msgid "GitHub token (issues:write on the target repo)"
+msgstr "Токен GitHub (issues:write на репозиторий)"
 
 msgctxt "#32014"
-msgid "Включать краш-логи"
-msgstr ""
+msgid "Include crash logs"
+msgstr "Включать краш-логи"
 
 msgctxt "#32015"
-msgid "Отправить накопленное сейчас"
-msgstr ""
+msgid "Send pending reports now"
+msgstr "Отправить накопленное сейчас"
 
 msgctxt "#32100"
-msgid "Bug Tracker: новая проблема сгруппирована (%s)"
-msgstr ""
+msgid "Bug Tracker: new problem grouped (%s)"
+msgstr "Bug Tracker: новая проблема сгруппирована (%s)"
 
 msgctxt "#32101"
-msgid "Bug Tracker: оформлено %s"
-msgstr ""
+msgid "Bug Tracker: filed %s"
+msgstr "Bug Tracker: оформлено %s"
+
+msgctxt "#32020"
+msgid "Most frequent first"
+msgstr "Сначала частые"
+
+msgctxt "#32021"
+msgid "Most recent first"
+msgstr "Сначала последние"
+
+msgctxt "#32022"
+msgid "Errors"
+msgstr "Ошибки"
+
+msgctxt "#32023"
+msgid "Python tracebacks"
+msgstr "Трейсбеки Python"
+
+msgctxt "#32024"
+msgid "Crash reports"
+msgstr "Краш-отчёты"
+
+msgctxt "#32025"
+msgid "Sort / filter"
+msgstr "Сортировка / фильтр"
+
+msgctxt "#32026"
+msgid "Settings"
+msgstr "Настройки"
+
+msgctxt "#32027"
+msgid "Sending requested"
+msgstr "Запрошена отправка отчётов"
+
+msgctxt "#32028"
+msgid "Unable to read the reports database"
+msgstr "Не удалось прочитать базу отчётов"
+
+msgctxt "#32029"
+msgid "Refresh groups"
+msgstr "Обновить список"
+
+msgctxt "#32030"
+msgid "Notify about new groups"
+msgstr "Уведомлять о новых группах"
+
+msgctxt "#32031"
+msgid "Bug Tracker: %d groups, %d messages"
+msgstr "Bug Tracker: групп %d, сообщений %d"

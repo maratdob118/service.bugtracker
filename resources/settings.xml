@@ -3,6 +3,7 @@
     <category label="32000">
         <group id="0" label="32001">
             <setting label="32010" type="bool" id="enabled" default="true"/>
+            <setting label="32030" type="bool" id="notify_new" default="false"/>
             <setting label="32011" type="bool" id="auto_send" default="false"/>
             <setting label="32012" type="text" id="target_repo" default="maratdob118/kodi-reports">
                 <constraints>

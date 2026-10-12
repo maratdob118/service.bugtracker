@@ -42,3 +42,51 @@ msgstr ""
 msgctxt "#32101"
 msgid "Bug Tracker: filed %s"
 msgstr ""
+
+msgctxt "#32020"
+msgid "Most frequent first"
+msgstr ""
+
+msgctxt "#32021"
+msgid "Most recent first"
+msgstr ""
+
+msgctxt "#32022"
+msgid "Errors"
+msgstr ""
+
+msgctxt "#32023"
+msgid "Python tracebacks"
+msgstr ""
+
+msgctxt "#32024"
+msgid "Crash reports"
+msgstr ""
+
+msgctxt "#32025"
+msgid "Sort / filter"
+msgstr ""
+
+msgctxt "#32026"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#32027"
+msgid "Sending requested"
+msgstr ""
+
+msgctxt "#32028"
+msgid "Unable to read the reports database"
+msgstr ""
+
+msgctxt "#32029"
+msgid "Refresh groups"
+msgstr ""
+
+msgctxt "#32030"
+msgid "Notify about new groups"
+msgstr ""
+
+msgctxt "#32031"
+msgid "Bug Tracker: %d groups, %d messages"
+msgstr ""
