@@ -90,3 +90,19 @@ msgstr ""
 msgctxt "#32031"
 msgid "Bug Tracker: %d groups, %d messages"
 msgstr ""
+
+msgctxt "#32032"
+msgid "Add-ons"
+msgstr ""
+
+msgctxt "#32033"
+msgid "System"
+msgstr ""
+
+msgctxt "#32034"
+msgid "Kodi errors"
+msgstr ""
+
+msgctxt "#32035"
+msgid "All groups"
+msgstr ""

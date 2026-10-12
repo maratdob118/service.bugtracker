@@ -90,3 +90,19 @@ msgstr "Уведомлять о новых группах"
 msgctxt "#32031"
 msgid "Bug Tracker: %d groups, %d messages"
 msgstr "Bug Tracker: групп %d, сообщений %d"
+
+msgctxt "#32032"
+msgid "Add-ons"
+msgstr "Аддоны"
+
+msgctxt "#32033"
+msgid "System"
+msgstr "Система"
+
+msgctxt "#32034"
+msgid "Kodi errors"
+msgstr "Ошибки Kodi"
+
+msgctxt "#32035"
+msgid "All groups"
+msgstr "Все группы"
