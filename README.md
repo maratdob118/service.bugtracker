@@ -27,5 +27,8 @@ Reports are stored in
 `special://profile/addon_data/service.bugtracker/reports.db`.
 Counts represent captured log messages, not independent failures. Collection
 timestamps indicate when the tracker recorded a message, not necessarily when
-the original failure happened. Version 0.2.0 retains the initial collector;
-crash recovery after a restart and more robust grouping remain follow-up work.
+the original failure happened. Version 0.3.0 persists byte cursors and event IDs,
+and scans unseen completed crash logs after a restart. Existing groups are
+migrated to stable signatures, with a database backup before migration. Historical
+counts are preserved; duplicates recorded by older versions cannot be reliably
+subtracted because those versions did not store event positions.

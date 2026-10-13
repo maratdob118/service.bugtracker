@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="service.bugtracker" name="Bug Tracker" version="0.2.2" provider-name="maratdob118">
+<addon id="service.bugtracker" name="Bug Tracker" version="0.3.0" provider-name="maratdob118">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
@@ -16,6 +16,12 @@
             <icon>icon.png</icon>
         </assets>
         <news>
+0.3.0
+- Persist log cursors and unique event IDs to avoid counting the same log again
+- Recover unseen crash reports after Kodi restarts, including reports in the home directory
+- Group URL variants and traceback exceptions using stable signatures
+- Preserve and back up historical counts during the grouping migration
+
 0.2.2
 - Attribute repository configuration errors to the named repository add-on
 
