@@ -176,7 +176,7 @@ def read_crash(path):
     except OSError:
         return None
     text = bytes(head).decode('utf-8', 'replace')
-    if b'END kodi CRASH LOG' not in tail:
+    if b'end kodi crash log' not in tail.lower():
         return None  # crash writer is still working, retry on the next scan
     lines = text.splitlines()
     summary = []
